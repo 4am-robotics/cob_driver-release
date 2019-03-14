@@ -1,0 +1,13 @@
+Source: ros-kinetic-cob-base-drive-chain
+Section: misc
+Priority: extra
+Maintainer: Matthias Gruhler <mig@ipa.fhg.de>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-cob-canopen-motor, ros-kinetic-cob-generic-can, ros-kinetic-cob-utilities, ros-kinetic-control-msgs, ros-kinetic-diagnostic-msgs, ros-kinetic-message-generation, ros-kinetic-roscpp, ros-kinetic-sensor-msgs, ros-kinetic-std-msgs, ros-kinetic-std-srvs
+Homepage: http://ros.org/wiki/cob_base_drive_chain
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-cob-base-drive-chain
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-cob-canopen-motor, ros-kinetic-cob-generic-can, ros-kinetic-cob-utilities, ros-kinetic-control-msgs, ros-kinetic-diagnostic-msgs, ros-kinetic-message-runtime, ros-kinetic-roscpp, ros-kinetic-sensor-msgs, ros-kinetic-std-msgs, ros-kinetic-std-srvs
+Description: This package contains classes that are able to control the platform of the Care-O-Bot.
+ This means to establish a CAN communication to drive and steering motors of the platform and later send motion commands and receive motor information.
