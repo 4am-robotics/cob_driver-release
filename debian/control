@@ -1,0 +1,12 @@
+Source: ros-kinetic-cob-voltage-control
+Section: misc
+Priority: extra
+Maintainer: Alexander Bubeck <aub@ipa.fhg.de>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-cob-msgs, ros-kinetic-cob-phidgets, ros-kinetic-dynamic-reconfigure, ros-kinetic-roscpp, ros-kinetic-std-msgs
+Homepage: None
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-cob-voltage-control
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python-tk, ros-kinetic-cob-msgs, ros-kinetic-cob-phidgets, ros-kinetic-dynamic-reconfigure, ros-kinetic-roscpp, ros-kinetic-rospy, ros-kinetic-std-msgs
+Description: Interface to IO board that manages emergency stop and battery voltage on rob@work 3
