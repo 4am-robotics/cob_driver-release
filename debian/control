@@ -1,0 +1,13 @@
+Source: ros-kinetic-cob-undercarriage-ctrl
+Section: misc
+Priority: extra
+Maintainer: Matthias Gruhler <mig@ipa.fhg.de>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-cob-msgs, ros-kinetic-cob-utilities, ros-kinetic-control-msgs, ros-kinetic-diagnostic-msgs, ros-kinetic-diagnostic-updater, ros-kinetic-geometry-msgs, ros-kinetic-nav-msgs, ros-kinetic-roscpp, ros-kinetic-tf
+Homepage: http://ros.org/wiki/cob_undercarriage_ctrl
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-cob-undercarriage-ctrl
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-cob-msgs, ros-kinetic-cob-utilities, ros-kinetic-control-msgs, ros-kinetic-diagnostic-msgs, ros-kinetic-diagnostic-updater, ros-kinetic-geometry-msgs, ros-kinetic-nav-msgs, ros-kinetic-roscpp, ros-kinetic-tf
+Description: cob_undercarriage_ctrl implements a controller for the omnidirectional base of Care-O-bot 3 on joint level.
+ For a given Pltf-Twist the according wheel steering angles and linear wheel velocities are calculated based on the principle of rigid body motion. Each joint is than controlled individually to achieve the computed position and velocity
