@@ -2,6 +2,19 @@
 Changelog for package cob_generic_can
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.7.0 (2019-08-06)
+------------------
+* Merge pull request `#380 <https://github.com/ipa320/cob_driver/issues/380>`_ from ipa-jba/fix/boost_shared_ptr
+  [Melodic] combined melodify pr
+* use all the pointer names I could find
+* replace boost in cob_generic_can
+* Merge pull request `#396 <https://github.com/ipa320/cob_driver/issues/396>`_ from HannesBachter/indigo_dev
+  0.6.15
+* Contributors: Felix Messmer, Jannik Abbenseth
+
+0.6.15 (2019-07-17)
+-------------------
+
 0.6.14 (2019-06-07)
 -------------------
 

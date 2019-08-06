@@ -2,6 +2,34 @@
 Changelog for package cob_mimic
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.7.0 (2019-08-06)
+------------------
+* Merge pull request `#380 <https://github.com/ipa320/cob_driver/issues/380>`_ from ipa-jba/fix/boost_shared_ptr
+  [Melodic] combined melodify pr
+* added missing boost format include
+* Merge pull request `#396 <https://github.com/ipa320/cob_driver/issues/396>`_ from HannesBachter/indigo_dev
+  0.6.15
+* Merge pull request `#398 <https://github.com/ipa320/cob_driver/issues/398>`_ from LoyVanBeek/feature/reduce_framerate_and_resolution
+  Reduce resolution and framerate in .mp4-files
+* Reduce resolution and framerate in .mp4-files
+* Contributors: Benjamin Maidel, Felix Messmer, Florian Weisshardt, Loy van Beek
+
+0.6.15 (2019-07-17)
+-------------------
+* Merge pull request `#394 <https://github.com/ipa320/cob_driver/issues/394>`_ from HannesBachter/feature/diagnostics
+  publish diagnostics
+* use one instance and vout config
+* change diagnostics info for active mimic
+* use own thread for diagnostics
+* use async spinner and not one-instance
+* use variable for action active
+* remove c++11 compile and order mutex unlock
+* add compile option and cleanup
+* publish diagnostics and use multithreaded spinner
+* 0.6.14
+* update changelogs
+* Contributors: Benjamin Maidel, Hannes Bachter, fmessmer, hyb
+
 0.6.14 (2019-06-07)
 -------------------
 
