@@ -1,0 +1,12 @@
+Source: ros-kinetic-cob-relayboard
+Section: misc
+Priority: extra
+Maintainer: Matthias Gruhler <mig@ipa.fhg.de>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-cob-msgs, ros-kinetic-roscpp, ros-kinetic-std-msgs
+Homepage: http://ros.org/wiki/cob_relayboard
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-cob-relayboard
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-cob-msgs, ros-kinetic-roscpp, ros-kinetic-rospy, ros-kinetic-std-msgs
+Description: cob_relayboard
