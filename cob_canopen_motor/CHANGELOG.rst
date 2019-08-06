@@ -2,6 +2,15 @@
 Changelog for package cob_canopen_motor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.7.0 (2019-08-06)
+------------------
+* Merge pull request `#396 <https://github.com/ipa320/cob_driver/issues/396>`_ from HannesBachter/indigo_dev
+  0.6.15
+* Contributors: Felix Messmer
+
+0.6.15 (2019-07-17)
+-------------------
+
 0.6.14 (2019-06-07)
 -------------------
 
