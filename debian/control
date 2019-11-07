@@ -1,0 +1,12 @@
+Source: ros-kinetic-cob-camera-sensors
+Section: misc
+Priority: optional
+Maintainer: Richard Bormann <richard.bormann@ipa.fraunhofer.de>
+Build-Depends: debhelper (>= 9.0.0), libboost-all-dev, libopencv-dev, libtinyxml-dev, ros-kinetic-catkin, ros-kinetic-cmake-modules, ros-kinetic-cob-vision-utils, ros-kinetic-cv-bridge, ros-kinetic-image-transport, ros-kinetic-message-filters, ros-kinetic-message-generation, ros-kinetic-polled-camera, ros-kinetic-roscpp, ros-kinetic-sensor-msgs
+Homepage: http://ros.org/wiki/cob_camera_sensors
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-cob-camera-sensors
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libboost-all-dev, libopencv-dev, libtinyxml-dev, ros-kinetic-cmake-modules, ros-kinetic-cob-vision-utils, ros-kinetic-cv-bridge, ros-kinetic-image-transport, ros-kinetic-message-filters, ros-kinetic-message-runtime, ros-kinetic-polled-camera, ros-kinetic-roscpp, ros-kinetic-rospy, ros-kinetic-sensor-msgs
+Description: For more information read the readme.htm file located in
