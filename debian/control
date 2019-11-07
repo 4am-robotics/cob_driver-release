@@ -1,0 +1,12 @@
+Source: ros-melodic-cob-mimic
+Section: misc
+Priority: optional
+Maintainer: Felix Messmer <felixmessmer@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), libboost-all-dev, libvlc-dev, ros-melodic-actionlib, ros-melodic-actionlib-msgs, ros-melodic-catkin, ros-melodic-diagnostic-msgs, ros-melodic-diagnostic-updater, ros-melodic-message-generation, ros-melodic-roscpp, ros-melodic-roslib, vlc
+Homepage: http://ros.org/wiki/cob_mimic
+Standards-Version: 3.9.2
+
+Package: ros-melodic-cob-mimic
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libboost-all-dev, libvlc-dev, ros-melodic-actionlib, ros-melodic-actionlib-msgs, ros-melodic-diagnostic-msgs, ros-melodic-diagnostic-updater, ros-melodic-message-runtime, ros-melodic-roscpp, ros-melodic-roslib, vlc
+Description: This package implements the Care-O-bot mimic
