@@ -1,0 +1,12 @@
+Source: ros-kinetic-cob-phidgets
+Section: misc
+Priority: optional
+Maintainer: Benjamin Maidel <benjamin.maidel@mojin-robotics.de>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-libphidgets, ros-kinetic-message-generation, ros-kinetic-roscpp, ros-kinetic-sensor-msgs, ros-kinetic-std-msgs
+Homepage: http://ros.org/wiki/cob_phidgets
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-cob-phidgets
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-libphidgets, ros-kinetic-message-runtime, ros-kinetic-roscpp, ros-kinetic-rospy, ros-kinetic-sensor-msgs, ros-kinetic-std-msgs
+Description: cob_phidgets
