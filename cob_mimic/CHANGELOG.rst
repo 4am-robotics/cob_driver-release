@@ -2,6 +2,31 @@
 Changelog for package cob_mimic
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.7.3 (2020-03-18)
+------------------
+* Merge pull request `#413 <https://github.com/ipa320/cob_driver/issues/413>`_ from fmessmer/remove_mimic_python
+  remove cob_mimic python driver
+* remove cob_mimic python driver
+* Contributors: Felix Messmer, fmessmer
+
+0.7.2 (2020-03-18)
+------------------
+* Merge pull request `#410 <https://github.com/ipa320/cob_driver/issues/410>`_ from fmessmer/fix_mimic_preemption
+  fix mimic preemption + add parameters
+* fix preemption condition
+* add random_mimics parameter
+* add default_mimic parameter
+* fix fullscreen
+* add blocking parameter
+* fix mimic preemption
+* Merge pull request `#409 <https://github.com/ipa320/cob_driver/issues/409>`_ from LoyVanBeek/feature/python3_compatibility
+  [ci_updates] pylint + Python3 compatibility
+* fix pylint errors
+* Merge pull request `#408 <https://github.com/ipa320/cob_driver/issues/408>`_ from fmessmer/ci_updates
+  [travis] ci updates
+* catkin_lint fixes
+* Contributors: Felix Messmer, fmessmer
+
 0.7.1 (2019-11-07)
 ------------------
 
