@@ -1,0 +1,12 @@
+Source: ros-melodic-cob-phidgets
+Section: misc
+Priority: optional
+Maintainer: Benjamin Maidel <benjamin.maidel@mojin-robotics.de>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin, ros-melodic-libphidgets, ros-melodic-message-generation, ros-melodic-roscpp, ros-melodic-sensor-msgs, ros-melodic-std-msgs
+Homepage: http://ros.org/wiki/cob_phidgets
+Standards-Version: 3.9.2
+
+Package: ros-melodic-cob-phidgets
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-libphidgets, ros-melodic-message-runtime, ros-melodic-roscpp, ros-melodic-rospy, ros-melodic-sensor-msgs, ros-melodic-std-msgs
+Description: cob_phidgets
