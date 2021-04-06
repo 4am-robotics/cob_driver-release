@@ -1,0 +1,13 @@
+Source: ros-noetic-laser-scan-densifier
+Section: misc
+Priority: optional
+Maintainer: Felix Messmer <felixmessmer@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin, ros-noetic-nodelet, ros-noetic-roscpp, ros-noetic-sensor-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-noetic-laser-scan-densifier
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-nodelet, ros-noetic-roscpp, ros-noetic-sensor-msgs
+Description: The laser_scan_densifier takes in a LaserScan message and densifies it.
+ Node is inspired by laser_scan_sparsifier (http://wiki.ros.org/laser_scan_sparsifier).
