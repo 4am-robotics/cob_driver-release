@@ -1,3 +1,46 @@
+## cob_driver (kinetic) - 0.7.5-3
+
+The packages in the `cob_driver` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release cob_driver --rosdistro kinetic` on `Tue, 06 Apr 2021 14:17:26 -0000`
+
+These packages were released:
+- `cob_base_drive_chain`
+- `cob_bms_driver`
+- `cob_canopen_motor`
+- `cob_driver`
+- `cob_elmo_homing`
+- `cob_generic_can`
+- `cob_light`
+- `cob_mimic`
+- `cob_phidget_em_state`
+- `cob_phidget_power_state`
+- `cob_phidgets`
+- `cob_relayboard`
+- `cob_scan_unifier`
+- `cob_sick_lms1xx`
+- `cob_sick_s300`
+- `cob_sound`
+- `cob_undercarriage_ctrl`
+- `cob_utilities`
+- `cob_voltage_control`
+- `laser_scan_densifier`
+
+Version of package(s) in repository `cob_driver`:
+
+- upstream repository: https://github.com/ipa320/cob_driver.git
+- release repository: https://github.com/ipa320/cob_driver-release.git
+- rosdistro version: `0.7.4-1`
+- old version: `0.7.5-2`
+- new version: `0.7.5-3`
+
+Versions of tools used:
+
+- bloom version: `0.10.3`
+- catkin_pkg version: `0.4.23`
+- rosdep version: `0.20.0`
+- rosdistro version: `0.8.3`
+- vcstools version: `0.1.42`
+
+
 ## cob_driver (kinetic) - 0.7.5-2
 
 The packages in the `cob_driver` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release cob_driver --rosdistro kinetic` on `Tue, 06 Apr 2021 13:35:14 -0000`
