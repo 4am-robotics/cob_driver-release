@@ -1,1 +1,1 @@
-{"trim": "", "base": "fd7e04f", "trimbase": "", "parent": "debian/noetic/cob_canopen_motor", "previous": "07fa08a"}
+{"base": "c633b6e2", "parent": "debian/noetic/cob_canopen_motor", "previous": "743514ef", "trim": "", "trimbase": ""}
