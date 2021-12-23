@@ -1,1 +1,1 @@
-{"trim": "", "base": "b58928c", "trimbase": "", "parent": "debian/noetic/cob_voltage_control", "previous": "9b6da7f"}
+{"base": "ee4a7eac", "parent": "debian/noetic/cob_voltage_control", "previous": "5f5aca55", "trim": "", "trimbase": ""}
