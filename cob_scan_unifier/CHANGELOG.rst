@@ -2,6 +2,34 @@
 Changelog for package cob_scan_unifier
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.7.10 (2021-12-23)
+-------------------
+
+0.7.9 (2021-11-26)
+------------------
+
+0.7.8 (2021-10-19)
+------------------
+* Merge pull request `#424 <https://github.com/ipa320/cob_driver/issues/424>`_ from lpk1950/publish_unified_points
+  Publish unified points
+* final touches
+* rename point_cloud to pointcloud
+* Changes based on the review
+* Changes on review: Separate publisher
+* Format
+* Format
+* check for the point_cloud param and set to false by default
+* publish pointcloud only when the parameter is set
+* change in topic name
+* publish unified scan as unified pointcloud
+* Contributors: Felix Messmer, fmessmer, karthik
+
+0.7.7 (2021-08-02)
+------------------
+
+0.7.6 (2021-05-10)
+------------------
+
 0.7.5 (2021-04-06)
 ------------------
 * Merge pull request `#420 <https://github.com/ipa320/cob_driver/issues/420>`_ from lindemeier/feature/improve_performance
