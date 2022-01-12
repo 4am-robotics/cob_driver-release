@@ -1,3 +1,46 @@
+## cob_driver (noetic) - 0.7.11-1
+
+The packages in the `cob_driver` repository were released into the `noetic` distro by running `/usr/bin/bloom-release cob_driver --rosdistro noetic` on `Wed, 12 Jan 2022 14:47:24 -0000`
+
+These packages were released:
+- `cob_base_drive_chain`
+- `cob_bms_driver`
+- `cob_canopen_motor`
+- `cob_driver`
+- `cob_elmo_homing`
+- `cob_generic_can`
+- `cob_light`
+- `cob_mimic`
+- `cob_phidget_em_state`
+- `cob_phidget_power_state`
+- `cob_phidgets`
+- `cob_relayboard`
+- `cob_scan_unifier`
+- `cob_sick_lms1xx`
+- `cob_sick_s300`
+- `cob_sound`
+- `cob_undercarriage_ctrl`
+- `cob_utilities`
+- `cob_voltage_control`
+- `laser_scan_densifier`
+
+Version of package(s) in repository `cob_driver`:
+
+- upstream repository: https://github.com/ipa320/cob_driver.git
+- release repository: https://github.com/ipa320/cob_driver-release.git
+- rosdistro version: `0.7.10-1`
+- old version: `0.7.10-1`
+- new version: `0.7.11-1`
+
+Versions of tools used:
+
+- bloom version: `0.10.7`
+- catkin_pkg version: `0.4.24`
+- rosdep version: `0.21.0`
+- rosdistro version: `0.8.3`
+- vcstools version: `0.1.42`
+
+
 ## cob_driver (noetic) - 0.7.10-1
 
 The packages in the `cob_driver` repository were released into the `noetic` distro by running `/usr/bin/bloom-release cob_driver --rosdistro noetic` on `Thu, 23 Dec 2021 10:33:51 -0000`
