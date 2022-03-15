@@ -1,0 +1,12 @@
+Source: ros-noetic-cob-sick-s300
+Section: misc
+Priority: optional
+Maintainer: Felix Messmer <felixmessmer@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), libboost-all-dev, ros-noetic-catkin, ros-noetic-diagnostic-msgs, ros-noetic-roscpp, ros-noetic-sensor-msgs, ros-noetic-std-msgs
+Homepage: http://ros.org/wiki/cob_sick_s300
+Standards-Version: 3.9.2
+
+Package: ros-noetic-cob-sick-s300
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libboost-all-dev, ros-noetic-diagnostic-msgs, ros-noetic-roscpp, ros-noetic-sensor-msgs, ros-noetic-std-msgs
+Description: This package published a laser scan message out of a Sick S300 laser scanner.
