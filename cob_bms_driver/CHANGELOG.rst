@@ -2,6 +2,9 @@
 Changelog for package cob_bms_driver
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.7.12 (2022-03-15)
+-------------------
+
 0.7.11 (2022-01-12)
 -------------------
 * Merge pull request `#429 <https://github.com/ipa320/cob_driver/issues/429>`_ from fmessmer/fix/invalid_value_warning
