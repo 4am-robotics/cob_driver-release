@@ -20,17 +20,20 @@ import numpy
 import warnings
 from std_msgs.msg import Float64
 from cob_msgs.msg import PowerState
+from sensor_msgs.msg import BatteryState
 
 class PowerStateAggregator():
 
     def __init__(self):
         # get parameters
-        self.current_buffer_size = rospy.get_param('~current_buffer_size', 11) # use odd number to prevent 0.0 mean
+        self.current_buffer_size = rospy.get_param('~current_buffer_size', 901) # approx. 60sec, topic rate 15Hz, use odd number to prevent 0.0 mean
         self.pub_power_state = rospy.Publisher('power_state', PowerState, queue_size=1)
+        self.pub_battery_state = rospy.Publisher('battery_state', BatteryState, queue_size=1)
         self.voltage = None
         self.current = None
         self.last_currents = []
         self.last_update = rospy.Time(0)
+        self.connected = False
         self.charging = False
         self.remaining_capacity = None
         self.full_charge_capacity = None
@@ -54,10 +57,15 @@ class PowerStateAggregator():
             self.last_currents.pop(0)
         self.last_currents.append(msg.data)
 
-        if msg.data > -1: # we use a limit of -1Ampere because if the battery is 100% full and the robot is still docked, there is no more current going into the battery. -1 A is biggger than the "Ruhestrom", so this should be ok until BMS is fixed and delivers a proper flag for docked or not_docked.
+        if msg.data > 0:
             self.charging = True
         else:
             self.charging = False
+        
+        if msg.data > -1: # we use a limit of -1Ampere because if the battery is 100% full and the robot is still docked, there is no more current going into the battery. -1 A is biggger than the "Ruhestrom", so this should be ok until BMS is fixed and delivers a proper flag for docked or not_docked.
+            self.connected = True
+        else:
+            self.connected = False
         
     def remaining_capacity_cb(self, msg):
         self.last_update = rospy.Time.now()
@@ -121,18 +129,39 @@ class PowerStateAggregator():
  
     def publish(self):
         if self.voltage != None and self.current != None and self.remaining_capacity != None and self.full_charge_capacity != None and self.temperature != None and (rospy.Time.now() - self.last_update) < rospy.Duration(1):
+            power_consumption = self.calculate_power_consumption()
+            relative_remaining_capacity = self.calculate_relative_remaining_capacity()
+            time_remaining = self.calculate_time_remaining()
+
             ps = PowerState()
             ps.header.stamp = self.last_update
             ps.voltage = self.voltage
             ps.current = self.current
-            ps.power_consumption = self.calculate_power_consumption()
+            ps.power_consumption = power_consumption
             ps.remaining_capacity = self.remaining_capacity
-            ps.relative_remaining_capacity = self.calculate_relative_remaining_capacity()
+            ps.relative_remaining_capacity = relative_remaining_capacity
+            ps.connected = self.connected
             ps.charging = self.charging
-            ps.time_remaining = self.calculate_time_remaining()
+            ps.time_remaining = time_remaining
             ps.temperature = self.temperature
+
+            bs = BatteryState()
+            bs.header.stamp = self.last_update
+            bs.voltage = self.voltage
+            bs.current = self.current
+            bs.charge = self.remaining_capacity
+            bs.design_capacity = self.full_charge_capacity
+            bs.percentage = relative_remaining_capacity / 100.0
+            bs.power_supply_status = BatteryState.POWER_SUPPLY_STATUS_CHARGING if self.charging else BatteryState.POWER_SUPPLY_STATUS_NOT_CHARGING
+            bs.power_supply_health = BatteryState.POWER_SUPPLY_HEALTH_GOOD
+            bs.power_supply_technology = BatteryState.POWER_SUPPLY_TECHNOLOGY_UNKNOWN
+            bs.present = True
+            bs.cell_voltage = [self.voltage]
+            bs.location = "emulated_battery"
+            bs.serial_number = "emulated_battery"
+
             self.pub_power_state.publish(ps)
-            return ps
+            self.pub_battery_state.publish(bs)
 
 if __name__ == "__main__":
     rospy.init_node("power_state_aggregator")
