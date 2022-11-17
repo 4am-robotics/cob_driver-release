@@ -1,0 +1,12 @@
+Source: ros-noetic-cob-elmo-homing
+Section: misc
+Priority: optional
+Maintainer: Florian Weisshardt <florian.weisshardt@ipa.fraunhofer.de>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-canopen-402, ros-noetic-catkin, ros-noetic-pluginlib, ros-noetic-socketcan-interface
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-noetic-cob-elmo-homing
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-canopen-402, ros-noetic-pluginlib, ros-noetic-socketcan-interface
+Description: This packagae implements the special homing procedure that is needed for old cob4/raw bases
