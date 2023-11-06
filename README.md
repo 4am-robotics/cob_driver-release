@@ -1,25 +1,25 @@
-# cob_sick_s300
-This package implements a driver for the Sick S300 Safety laser scanners.
-It provides an implementation for both, the old (1.40) and the new (2.10) protocol.
-Thus, the old Sick S300 Professional CMS as well as the new Sick S300 Expert are supported.
+cob_driver
+===========
 
-However, it does not cover the full functionality of the protocol:
-- It only handles distance measurements properly
-- It only handles no or only one configured measurement range field properly
-- It does not handle I/O-data or reflector data
-(though it reads the reflector marker field in the distance measurements)
+## ROS Distro Support
 
-See http://wiki.ros.org/cob_sick_s300 for more details.
+|         | Indigo | Jade | Kinetic | Melodic |
+|:-------:|:------:|:----:|:-------:|:-------:|
+| Branch  | [`indigo_dev`](https://github.com/ipa320/cob_driver/tree/indigo_dev) | [`indigo_dev`](https://github.com/ipa320/cob_driver/tree/indigo_dev) | [`kinetic_dev`](https://github.com/ipa320/cob_driver/tree/kinetic_dev) | [`kinetic_dev`](https://github.com/ipa320/cob_driver/tree/kinetic_dev) |
+| Status  |  supported | not supported | supported | supported |
+| Version | [version](http://repositories.ros.org/status_page/ros_indigo_default.html?q=cob_driver) | [version](http://repositories.ros.org/status_page/ros_jade_default.html?q=cob_driver) | [version](http://repositories.ros.org/status_page/ros_kinetic_default.html?q=cob_driver) |[version](http://repositories.ros.org/status_page/ros_melodic_default.html?q=cob_driver) |
 
-## S300 Configuration
-Here are a few notes about how to best configure the S300:
-- Configure the RS422 output to 500kBaud (otherwise, the scanner only provides a lower frequency)
-- Configure the scanner to Continuous Data Output
-- Send data via one telegram
-- Only configure distances, no I/O or reflector data (otherwise, the scanner only provides a lower frequency).
-- Configuration of the measurement ranges
-    - For protocol 1.40: only configure one measurement range field with the full range (-45° to 225°) with all values.
-    - For protocol 2.10: do not configure a measurement range field
-      (otherwise, the scanner only provides a lower frequency).
-- If you want to only use certain measurement ranges, do this on the ROS side using e.g. the `cob_scan_filter`
-located in this package as well.
+## Travis - Continuous Integration
+
+Status: [![Build Status](https://app.travis-ci.com/ipa320/cob_driver.svg?branch=kinetic_dev)](https://app.travis-ci.com/ipa320/cob_driver)
+
+## ROS Buildfarm
+
+|         | Indigo Source | Indigo Debian | Jade Source | Jade Debian | Kinetic Source | Kinetic Debian | Melodic Source | Melodic Debian |
+|:-------:|:-------------:|:-------------:|:-----------:|:-----------:|:--------------:|:--------------:|:--------------:|:--------------:|
+| cob_driver | [![not released](http://build.ros.org/buildStatus/icon?job=Isrc_uT__cob_driver__ubuntu_trusty__source)](http://build.ros.org/view/Isrc_uT/job/Isrc_uT__cob_driver__ubuntu_trusty__source/) | [![not released](http://build.ros.org/buildStatus/icon?job=Ibin_uT64__cob_driver__ubuntu_trusty_amd64__binary)](http://build.ros.org/view/Ibin_uT64/job/Ibin_uT64__cob_driver__ubuntu_trusty_amd64__binary/) | [![not released](http://build.ros.org/buildStatus/icon?job=Jsrc_uT__cob_driver__ubuntu_trusty__source)](http://build.ros.org/view/Jsrc_uT/job/Jsrc_uT__cob_driver__ubuntu_trusty__source/) | [![not released](http://build.ros.org/buildStatus/icon?job=Jbin_uT64__cob_driver__ubuntu_trusty_amd64__binary)](http://build.ros.org/view/Jbin_uT64/job/Jbin_uT64__cob_driver__ubuntu_trusty_amd64__binary/) | [![not released](http://build.ros.org/buildStatus/icon?job=Ksrc_uX__cob_driver__ubuntu_xenial__source)](http://build.ros.org/view/Ksrc_uX/job/Ksrc_uX__cob_driver__ubuntu_xenial__source/) | [![not released](http://build.ros.org/buildStatus/icon?job=Kbin_uX64__cob_driver__ubuntu_xenial_amd64__binary)](http://build.ros.org/view/Kbin_uX64/job/Kbin_uX64__cob_driver__ubuntu_xenial_amd64__binary/) | [![not released](http://build.ros.org/buildStatus/icon?job=Msrc_uB__cob_driver__ubuntu_bionic__source)](http://build.ros.org/view/Msrc_uB/job/Msrc_uB__cob_driver__ubuntu_bionic__source/) | [![not released](http://build.ros.org/buildStatus/icon?job=Mbin_uB64__cob_driver__ubuntu_bionic_amd64__binary)](http://build.ros.org/view/Mbin_uB64/job/Mbin_uB64__cob_driver__ubuntu_bionic_amd64__binary/) |
+
+
+This is a repository for Care-O-bot driver packages.
+
+Installation instructions and tutorials can be found at http://www.care-o-bot.org.
