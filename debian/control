@@ -1,0 +1,12 @@
+Source: ros-noetic-cob-voltage-control
+Section: misc
+Priority: optional
+Maintainer: Alexander Bubeck <aub@ipa.fhg.de>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin, ros-noetic-cob-msgs, ros-noetic-cob-phidgets, ros-noetic-dynamic-reconfigure, ros-noetic-roscpp, ros-noetic-std-msgs
+Homepage: None
+Standards-Version: 3.9.2
+
+Package: ros-noetic-cob-voltage-control
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python3-matplotlib, python3-tk, ros-noetic-cob-msgs, ros-noetic-cob-phidgets, ros-noetic-dynamic-reconfigure, ros-noetic-roscpp, ros-noetic-rospy, ros-noetic-std-msgs
+Description: Interface to IO board that manages emergency stop and battery voltage on rob@work 3
