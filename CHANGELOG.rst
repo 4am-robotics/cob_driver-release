@@ -2,6 +2,9 @@
 Changelog for package cob_phidgets
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.7.15 (2023-11-06)
+-------------------
+
 0.7.14 (2022-11-17)
 -------------------
 * Merge pull request `#438 <https://github.com/ipa320/cob_driver/issues/438>`_ from fmessmer/feature/phidgets_emulation
