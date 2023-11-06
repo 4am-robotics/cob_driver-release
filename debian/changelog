@@ -1,0 +1,348 @@
+ros-noetic-cob-sound (0.7.15-1focal) focal; urgency=high
+
+
+
+ -- Felix Messmer <felixmessmer@gmail.com>  Sun, 05 Nov 2023 23:00:00 -0000
+
+ros-noetic-cob-sound (0.7.14-1focal) focal; urgency=high
+
+
+
+ -- Felix Messmer <felixmessmer@gmail.com>  Wed, 16 Nov 2022 23:00:00 -0000
+
+ros-noetic-cob-sound (0.7.13-1focal) focal; urgency=high
+
+
+
+ -- Felix Messmer <felixmessmer@gmail.com>  Thu, 28 Jul 2022 22:00:00 -0000
+
+ros-noetic-cob-sound (0.7.12-1focal) focal; urgency=high
+
+
+
+ -- Felix Messmer <felixmessmer@gmail.com>  Mon, 14 Mar 2022 23:00:00 -0000
+
+ros-noetic-cob-sound (0.7.11-1focal) focal; urgency=high
+
+
+
+ -- Felix Messmer <felixmessmer@gmail.com>  Tue, 11 Jan 2022 23:00:00 -0000
+
+ros-noetic-cob-sound (0.7.10-1focal) focal; urgency=high
+
+
+
+ -- Felix Messmer <felixmessmer@gmail.com>  Wed, 22 Dec 2021 23:00:00 -0000
+
+ros-noetic-cob-sound (0.7.9-1focal) focal; urgency=high
+
+
+
+ -- Felix Messmer <felixmessmer@gmail.com>  Thu, 25 Nov 2021 23:00:00 -0000
+
+ros-noetic-cob-sound (0.7.8-1focal) focal; urgency=high
+
+
+
+ -- Felix Messmer <felixmessmer@gmail.com>  Mon, 18 Oct 2021 22:00:00 -0000
+
+ros-noetic-cob-sound (0.7.7-1focal) focal; urgency=high
+
+
+
+ -- Felix Messmer <felixmessmer@gmail.com>  Sun, 01 Aug 2021 22:00:00 -0000
+
+ros-noetic-cob-sound (0.7.6-1focal) focal; urgency=high
+
+
+
+ -- Felix Messmer <felixmessmer@gmail.com>  Sun, 09 May 2021 22:00:00 -0000
+
+ros-noetic-cob-sound (0.7.5-1focal) focal; urgency=high
+
+  * Merge pull request #418 <https://github.com/ipa320/cob_driver/issues/418> from fmessmer/fix_catkin_lint
+    fix catkin_lint
+  * fix catkin_lint
+  * Contributors: Felix Messmer, fmessmer
+
+ -- Felix Messmer <felixmessmer@gmail.com>  Mon, 05 Apr 2021 22:00:00 -0000
+
+ros-noetic-cob-sound (0.7.4-1focal) focal; urgency=high
+
+  * Merge pull request #417 <https://github.com/ipa320/cob_driver/issues/417> from fmessmer/test_noetic
+    test noetic
+  * Bump CMake version to avoid CMP0048 warning
+  * Contributors: Felix Messmer, fmessmer
+
+ -- Felix Messmer <felixmessmer@gmail.com>  Tue, 13 Oct 2020 22:00:00 -0000
+
+ros-noetic-cob-sound (0.7.3-1focal) focal; urgency=high
+
+
+
+ -- Felix Messmer <felixmessmer@gmail.com>  Tue, 17 Mar 2020 23:00:00 -0000
+
+ros-noetic-cob-sound (0.7.2-1focal) focal; urgency=high
+
+  * Merge pull request #409 <https://github.com/ipa320/cob_driver/issues/409> from LoyVanBeek/feature/python3_compatibility
+    [ci_updates] pylint + Python3 compatibility
+  * python3 compatibility via 2to3
+  * Merge pull request #408 <https://github.com/ipa320/cob_driver/issues/408> from fmessmer/ci_updates
+    [travis] ci updates
+  * catkin_lint fixes
+  * Contributors: Felix Messmer, Loy van Beek, fmessmer
+
+ -- Felix Messmer <felixmessmer@gmail.com>  Tue, 17 Mar 2020 23:00:00 -0000
+
+ros-noetic-cob-sound (0.7.1-1focal) focal; urgency=high
+
+
+
+ -- Felix Messmer <felixmessmer@gmail.com>  Wed, 06 Nov 2019 23:00:00 -0000
+
+ros-noetic-cob-sound (0.7.0-1focal) focal; urgency=high
+
+  * Merge pull request #396 <https://github.com/ipa320/cob_driver/issues/396> from HannesBachter/indigo_dev
+    0.6.15
+  * Contributors: Felix Messmer
+
+ -- Felix Messmer <felixmessmer@gmail.com>  Mon, 05 Aug 2019 22:00:00 -0000
+
+ros-noetic-cob-sound (0.6.15-1focal) focal; urgency=high
+
+
+
+ -- Felix Messmer <felixmessmer@gmail.com>  Tue, 16 Jul 2019 22:00:00 -0000
+
+ros-noetic-cob-sound (0.6.14-1focal) focal; urgency=high
+
+
+
+ -- Felix Messmer <felixmessmer@gmail.com>  Thu, 06 Jun 2019 22:00:00 -0000
+
+ros-noetic-cob-sound (0.6.13-1focal) focal; urgency=high
+
+  * Merge pull request #382 <https://github.com/ipa320/cob_driver/issues/382> from fmessmer/install_fix_swift
+    fix install tags
+  * fix install tags
+  * Contributors: Felix Messmer, fmessmer
+
+ -- Felix Messmer <felixmessmer@gmail.com>  Wed, 13 Mar 2019 23:00:00 -0000
+
+ros-noetic-cob-sound (0.6.12-1focal) focal; urgency=high
+
+  * update maintainer
+  * Merge pull request #376 <https://github.com/ipa320/cob_driver/issues/376> from fmessmer/bulletproof_sound
+    bulletproof sound
+  * bulletproof sound
+  * Merge pull request #362 <https://github.com/ipa320/cob_driver/issues/362> from ipa-fmw/fix/sound_play
+    [cob_sound] catch if filename is empty or invalid
+  * catch if filename is empty
+  * Contributors: Felix Messmer, fmessmer, ipa-fxm, msh
+
+ -- Felix Messmer <felixmessmer@gmail.com>  Fri, 20 Jul 2018 22:00:00 -0000
+
+ros-noetic-cob-sound (0.6.11-1focal) focal; urgency=high
+
+  * Merge remote-tracking branch 'origin/indigo_release_candidate' into indigo_dev
+  * Merge pull request #353 <https://github.com/ipa320/cob_driver/issues/353> from ipa-fxm/update_maintainer
+    update maintainer
+  * update maintainer
+  * Merge pull request #341 <https://github.com/ipa320/cob_driver/issues/341> from ipa-fxm/APACHE_license
+    use license apache 2.0
+  * use license apache 2.0
+  * Contributors: Felix Messmer, ipa-fxm, ipa-uhr-mk
+
+ -- Felix Messmer <felixmessmer@gmail.com>  Sat, 06 Jan 2018 23:00:00 -0000
+
+ros-noetic-cob-sound (0.6.10-1focal) focal; urgency=high
+
+
+
+ -- Felix Messmer <felixmessmer@gmail.com>  Sun, 23 Jul 2017 22:00:00 -0000
+
+ros-noetic-cob-sound (0.6.9-1focal) focal; urgency=high
+
+  * remove dependency to sound_play
+  * fix sound test_client
+  * manually fix changelog
+  * Contributors: Felix Messmer, ipa-fxm
+
+ -- Felix Messmer <felixmessmer@gmail.com>  Mon, 17 Jul 2017 22:00:00 -0000
+
+ros-noetic-cob-sound (0.6.8-1focal) focal; urgency=high
+
+  * fade volume on play and between tracks
+  * fix sound action namespaces
+  * unify namespaces with cob_light
+  * use private namespace for cob_sound parameters
+  * consistently fill result for say and play
+  * Contributors: Benjamin Maidel, ipa-cob4-2, ipa-fxm, msh
+
+ -- Felix Messmer <felixmessmer@gmail.com>  Sun, 09 Oct 2016 22:00:00 -0000
+
+ros-noetic-cob-sound (0.6.7-1focal) focal; urgency=high
+
+
+
+ -- Felix Messmer <felixmessmer@gmail.com>  Fri, 01 Apr 2016 22:00:00 -0000
+
+ros-noetic-cob-sound (0.6.6-1focal) focal; urgency=high
+
+  * fix sound dependencies
+  * considered pr comments
+  * removed debug logging
+  * start feedback timer only if action is active
+  * start action server after complete init
+  * use libvlc for sound play
+  * merge
+  * support for other cepstral voices (e.g. german Matthias)
+  * sound error with Cepstral,use alsa oss
+  * missed dependencies
+  * Contributors: Benjamin Maidel, cob4-2, ipa-cob4-2, ipa-fmw, ipa-nhg
+
+ -- Felix Messmer <felixmessmer@gmail.com>  Thu, 31 Mar 2016 22:00:00 -0000
+
+ros-noetic-cob-sound (0.6.5-1focal) focal; urgency=high
+
+  * fix dependencies
+  * Contributors: ipa-fxm
+
+ -- Felix Messmer <felixmessmer@gmail.com>  Sun, 30 Aug 2015 22:00:00 -0000
+
+ros-noetic-cob-sound (0.6.4-1focal) focal; urgency=high
+
+  * boost revision
+  * do not install headers in executable-only packages
+  * explicit dependency to boost
+  * alsa-oss dependency
+  * fixing dependencies
+  * remove obsolete autogenerated mainpage.dox files
+  * remove trailing whitespaces
+  * add_dependencies EXPORTED_TARGETS
+  * migrate to package format 2
+  * merge
+  * deleted name argument and added a comment
+  * update cob_sound
+  * sort dependencies
+  * critically review dependencies
+  * play sound
+  * Contributors: ipa-fxm, ipa-nhg
+
+ -- Felix Messmer <felixmessmer@gmail.com>  Mon, 24 Aug 2015 22:00:00 -0000
+
+ros-noetic-cob-sound (0.6.3-1focal) focal; urgency=high
+
+  * merge with ipa320
+  * adapt test script for sound
+  * use component namespaces for light, mimic and say
+  * add visualization marker to sound
+  * use Timer for diagnostics
+  * add hardware_id to sound
+  * reduce diagnostics frequency to 1Hz
+  * use new Trigger from std_srvs
+  * move cob_sound launch file to cob_bringup
+  * Contributors: ipa-fmw, ipa-fxm
+
+ -- Felix Messmer <felixmessmer@gmail.com>  Tue, 16 Jun 2015 22:00:00 -0000
+
+ros-noetic-cob-sound (0.6.2-1focal) focal; urgency=high
+
+  * Merge branch 'indigo_dev' into indigo_release_candidate
+  * missed dependency
+  * missed dependency
+  * Contributors: Florian Weisshardt, ipa-cob4-2, ipa-nhg
+
+ -- Felix Messmer <felixmessmer@gmail.com>  Sun, 14 Dec 2014 23:00:00 -0000
+
+ros-noetic-cob-sound (0.6.1-1focal) focal; urgency=high
+
+
+
+ -- Felix Messmer <felixmessmer@gmail.com>  Tue, 16 Sep 2014 22:00:00 -0000
+
+ros-noetic-cob-sound (0.6.0-1focal) focal; urgency=high
+
+
+
+ -- Felix Messmer <felixmessmer@gmail.com>  Mon, 08 Sep 2014 22:00:00 -0000
+
+ros-noetic-cob-sound (0.5.7-1focal) focal; urgency=high
+
+  * Merge pull request #163 <https://github.com/ipa320/cob_driver/issues/163> from ipa320/hydro_dev
+    updates from hydro_dev
+  * 0.5.6
+  * update changelog
+  * merge
+  * Cleaned up cob_driver with reduced deps to compile on indigo
+  * Merge pull request #135 <https://github.com/ipa320/cob_driver/issues/135> from ipa320/hydro_release_candidate
+    bring back changes from Hydro release candidate
+  * New maintainer
+  * Contributors: Alexander Bubeck, Florian Weisshardt, Nadia Hammoudeh García, ipa-nhg
+
+ -- Felix Messmer <felixmessmer@gmail.com>  Mon, 25 Aug 2014 22:00:00 -0000
+
+ros-noetic-cob-sound (0.5.6-1focal) focal; urgency=high
+
+  * Merge pull request #163 <https://github.com/ipa320/cob_driver/issues/163> from ipa320/hydro_dev
+    updates from hydro_dev
+  * merge
+  * Cleaned up cob_driver with reduced deps to compile on indigo
+  * Merge pull request #135 <https://github.com/ipa320/cob_driver/issues/135> from ipa320/hydro_release_candidate
+    bring back changes from Hydro release candidate
+  * New maintainer
+  * Contributors: Alexander Bubeck, Florian Weisshardt, Nadia Hammoudeh García, ipa-nhg
+
+ -- Felix Messmer <felixmessmer@gmail.com>  Mon, 25 Aug 2014 22:00:00 -0000
+
+ros-noetic-cob-sound (0.5.3-1focal) focal; urgency=high
+
+  * install tags
+  * Contributors: ipa-fxm
+
+ -- Felix Messmer <felixmessmer@gmail.com>  Sun, 30 Mar 2014 22:00:00 -0000
+
+ros-noetic-cob-sound (0.5.2-1focal) focal; urgency=high
+
+
+
+ -- Felix Messmer <felixmessmer@gmail.com>  Wed, 19 Mar 2014 23:00:00 -0000
+
+ros-noetic-cob-sound (0.5.1-1focal) focal; urgency=high
+
+  * remove duplication
+  * remove duplication
+  * add dependency to sound_play
+  * fix dependencies
+  * workaround for cepstral on ubuntu 12.04
+  * Installation stuff
+  * Some small dependency tweaks.
+  * fix timing bug
+  * timing big fix
+  * cleaned up CMakeLists and added install directives
+  * further modifications for catkin, now everything is compiling and linking
+  * futher include and linkpath modifications
+  * add message dependencies
+  * compiling but still some linker errors
+  * Second catkinization push
+  * First catkinization, still need to update some CMakeLists.txt
+  * add diagnostics to sound
+  * add mute and unmute service to sound
+  * cleanup in sound
+  * action handle fix
+  * handle return value
+  * changes for fuerte compatibility
+  * merge
+  * update deps
+  * added roslaunch tests
+  * fetch and carry on cob3-3
+  * cepstral voice as mode
+  * rearranging cob_camera_sensors launch files
+  * del files
+  * sound with cpp
+  * cob_sound package added
+  * Contributors: Alexander Bubeck, Richard Bormann, abubeck, cpc-pk, ipa-cob3-3, ipa-fmw, ipa-fxm
+
+ -- Felix Messmer <felixmessmer@gmail.com>  Wed, 19 Mar 2014 23:00:00 -0000
+
+
