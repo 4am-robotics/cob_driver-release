@@ -2,6 +2,9 @@
 Changelog for package cob_bms_driver
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.7.15 (2023-11-06)
+-------------------
+
 0.7.14 (2022-11-17)
 -------------------
 * Merge pull request `#437 <https://github.com/ipa320/cob_driver/issues/437>`_ from Deleh/fix/power_consume
