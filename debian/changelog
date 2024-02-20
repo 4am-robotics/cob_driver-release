@@ -1,0 +1,262 @@
+ros-noetic-cob-utilities (0.7.16-1focal) focal; urgency=high
+
+
+
+ -- Matthias Gruhler <mig@ipa.fhg.de>  Mon, 19 Feb 2024 23:00:00 -0000
+
+ros-noetic-cob-utilities (0.7.15-1focal) focal; urgency=high
+
+
+
+ -- Matthias Gruhler <mig@ipa.fhg.de>  Sun, 05 Nov 2023 23:00:00 -0000
+
+ros-noetic-cob-utilities (0.7.14-1focal) focal; urgency=high
+
+
+
+ -- Matthias Gruhler <mig@ipa.fhg.de>  Wed, 16 Nov 2022 23:00:00 -0000
+
+ros-noetic-cob-utilities (0.7.13-1focal) focal; urgency=high
+
+
+
+ -- Matthias Gruhler <mig@ipa.fhg.de>  Thu, 28 Jul 2022 22:00:00 -0000
+
+ros-noetic-cob-utilities (0.7.12-1focal) focal; urgency=high
+
+
+
+ -- Matthias Gruhler <mig@ipa.fhg.de>  Mon, 14 Mar 2022 23:00:00 -0000
+
+ros-noetic-cob-utilities (0.7.11-1focal) focal; urgency=high
+
+
+
+ -- Matthias Gruhler <mig@ipa.fhg.de>  Tue, 11 Jan 2022 23:00:00 -0000
+
+ros-noetic-cob-utilities (0.7.10-1focal) focal; urgency=high
+
+
+
+ -- Matthias Gruhler <mig@ipa.fhg.de>  Wed, 22 Dec 2021 23:00:00 -0000
+
+ros-noetic-cob-utilities (0.7.9-1focal) focal; urgency=high
+
+
+
+ -- Matthias Gruhler <mig@ipa.fhg.de>  Thu, 25 Nov 2021 23:00:00 -0000
+
+ros-noetic-cob-utilities (0.7.8-1focal) focal; urgency=high
+
+
+
+ -- Matthias Gruhler <mig@ipa.fhg.de>  Mon, 18 Oct 2021 22:00:00 -0000
+
+ros-noetic-cob-utilities (0.7.7-1focal) focal; urgency=high
+
+
+
+ -- Matthias Gruhler <mig@ipa.fhg.de>  Sun, 01 Aug 2021 22:00:00 -0000
+
+ros-noetic-cob-utilities (0.7.6-1focal) focal; urgency=high
+
+
+
+ -- Matthias Gruhler <mig@ipa.fhg.de>  Sun, 09 May 2021 22:00:00 -0000
+
+ros-noetic-cob-utilities (0.7.5-1focal) focal; urgency=high
+
+
+
+ -- Matthias Gruhler <mig@ipa.fhg.de>  Mon, 05 Apr 2021 22:00:00 -0000
+
+ros-noetic-cob-utilities (0.7.4-1focal) focal; urgency=high
+
+  * Merge pull request #417 <https://github.com/ipa320/cob_driver/issues/417> from fmessmer/test_noetic
+    test noetic
+  * Bump CMake version to avoid CMP0048 warning
+  * Contributors: Felix Messmer, fmessmer
+
+ -- Matthias Gruhler <mig@ipa.fhg.de>  Tue, 13 Oct 2020 22:00:00 -0000
+
+ros-noetic-cob-utilities (0.7.3-1focal) focal; urgency=high
+
+
+
+ -- Matthias Gruhler <mig@ipa.fhg.de>  Tue, 17 Mar 2020 23:00:00 -0000
+
+ros-noetic-cob-utilities (0.7.2-1focal) focal; urgency=high
+
+  * Merge pull request #405 <https://github.com/ipa320/cob_driver/issues/405> from fmessmer/fix_warnings
+    fix compile warnings
+  * fix -Wunused-result in cob_utilities
+  * Contributors: Felix Messmer, fmessmer
+
+ -- Matthias Gruhler <mig@ipa.fhg.de>  Tue, 17 Mar 2020 23:00:00 -0000
+
+ros-noetic-cob-utilities (0.7.1-1focal) focal; urgency=high
+
+
+
+ -- Matthias Gruhler <mig@ipa.fhg.de>  Wed, 06 Nov 2019 23:00:00 -0000
+
+ros-noetic-cob-utilities (0.7.0-1focal) focal; urgency=high
+
+  * Merge pull request #396 <https://github.com/ipa320/cob_driver/issues/396> from HannesBachter/indigo_dev
+    0.6.15
+  * Contributors: Felix Messmer
+
+ -- Matthias Gruhler <mig@ipa.fhg.de>  Mon, 05 Aug 2019 22:00:00 -0000
+
+ros-noetic-cob-utilities (0.6.15-1focal) focal; urgency=high
+
+
+
+ -- Matthias Gruhler <mig@ipa.fhg.de>  Tue, 16 Jul 2019 22:00:00 -0000
+
+ros-noetic-cob-utilities (0.6.14-1focal) focal; urgency=high
+
+
+
+ -- Matthias Gruhler <mig@ipa.fhg.de>  Thu, 06 Jun 2019 22:00:00 -0000
+
+ros-noetic-cob-utilities (0.6.13-1focal) focal; urgency=high
+
+
+
+ -- Matthias Gruhler <mig@ipa.fhg.de>  Wed, 13 Mar 2019 23:00:00 -0000
+
+ros-noetic-cob-utilities (0.6.12-1focal) focal; urgency=high
+
+
+
+ -- Matthias Gruhler <mig@ipa.fhg.de>  Fri, 20 Jul 2018 22:00:00 -0000
+
+ros-noetic-cob-utilities (0.6.11-1focal) focal; urgency=high
+
+  * Merge remote-tracking branch 'origin/indigo_release_candidate' into indigo_dev
+  * Merge pull request #341 <https://github.com/ipa320/cob_driver/issues/341> from ipa-fxm/APACHE_license
+    use license apache 2.0
+  * use license apache 2.0
+  * Contributors: Felix Messmer, ipa-fxm, ipa-uhr-mk
+
+ -- Matthias Gruhler <mig@ipa.fhg.de>  Sat, 06 Jan 2018 23:00:00 -0000
+
+ros-noetic-cob-utilities (0.6.10-1focal) focal; urgency=high
+
+
+
+ -- Matthias Gruhler <mig@ipa.fhg.de>  Sun, 23 Jul 2017 22:00:00 -0000
+
+ros-noetic-cob-utilities (0.6.9-1focal) focal; urgency=high
+
+  * manually fix changelog
+  * Contributors: ipa-fxm
+
+ -- Matthias Gruhler <mig@ipa.fhg.de>  Mon, 17 Jul 2017 22:00:00 -0000
+
+ros-noetic-cob-utilities (0.6.8-1focal) focal; urgency=high
+
+
+
+ -- Matthias Gruhler <mig@ipa.fhg.de>  Sun, 09 Oct 2016 22:00:00 -0000
+
+ros-noetic-cob-utilities (0.6.7-1focal) focal; urgency=high
+
+
+
+ -- Matthias Gruhler <mig@ipa.fhg.de>  Fri, 01 Apr 2016 22:00:00 -0000
+
+ros-noetic-cob-utilities (0.6.6-1focal) focal; urgency=high
+
+
+
+ -- Matthias Gruhler <mig@ipa.fhg.de>  Thu, 31 Mar 2016 22:00:00 -0000
+
+ros-noetic-cob-utilities (0.6.5-1focal) focal; urgency=high
+
+
+
+ -- Matthias Gruhler <mig@ipa.fhg.de>  Sun, 30 Aug 2015 22:00:00 -0000
+
+ros-noetic-cob-utilities (0.6.4-1focal) focal; urgency=high
+
+  * remove obsolete autogenerated mainpage.dox files
+  * remove trailing whitespaces
+  * migrate to package format 2
+  * sort dependencies
+  * critically review dependencies
+  * Contributors: ipa-fxm
+
+ -- Matthias Gruhler <mig@ipa.fhg.de>  Mon, 24 Aug 2015 22:00:00 -0000
+
+ros-noetic-cob-utilities (0.6.3-1focal) focal; urgency=high
+
+
+
+ -- Matthias Gruhler <mig@ipa.fhg.de>  Tue, 16 Jun 2015 22:00:00 -0000
+
+ros-noetic-cob-utilities (0.6.2-1focal) focal; urgency=high
+
+
+
+ -- Matthias Gruhler <mig@ipa.fhg.de>  Sun, 14 Dec 2014 23:00:00 -0000
+
+ros-noetic-cob-utilities (0.6.1-1focal) focal; urgency=high
+
+
+
+ -- Matthias Gruhler <mig@ipa.fhg.de>  Tue, 16 Sep 2014 22:00:00 -0000
+
+ros-noetic-cob-utilities (0.6.0-1focal) focal; urgency=high
+
+
+
+ -- Matthias Gruhler <mig@ipa.fhg.de>  Mon, 08 Sep 2014 22:00:00 -0000
+
+ros-noetic-cob-utilities (0.5.7-1focal) focal; urgency=high
+
+  * Merge pull request #163 <https://github.com/ipa320/cob_driver/issues/163> from ipa320/hydro_dev
+    updates from hydro_dev
+  * 0.5.6
+  * update changelog
+  * Cleaned up cob_driver with reduced deps to compile on indigo
+  * Contributors: Alexander Bubeck, Florian Weisshardt
+
+ -- Matthias Gruhler <mig@ipa.fhg.de>  Mon, 25 Aug 2014 22:00:00 -0000
+
+ros-noetic-cob-utilities (0.5.6-1focal) focal; urgency=high
+
+  * Merge pull request #163 <https://github.com/ipa320/cob_driver/issues/163> from ipa320/hydro_dev
+    updates from hydro_dev
+  * Cleaned up cob_driver with reduced deps to compile on indigo
+  * Contributors: Alexander Bubeck, Florian Weisshardt
+
+ -- Matthias Gruhler <mig@ipa.fhg.de>  Mon, 25 Aug 2014 22:00:00 -0000
+
+ros-noetic-cob-utilities (0.5.3-1focal) focal; urgency=high
+
+  * install tags
+  * Contributors: ipa-fxm
+
+ -- Matthias Gruhler <mig@ipa.fhg.de>  Sun, 30 Mar 2014 22:00:00 -0000
+
+ros-noetic-cob-utilities (0.5.2-1focal) focal; urgency=high
+
+
+
+ -- Matthias Gruhler <mig@ipa.fhg.de>  Wed, 19 Mar 2014 23:00:00 -0000
+
+ros-noetic-cob-utilities (0.5.1-1focal) focal; urgency=high
+
+  * cleaned up CMakeLists and added install directives
+  * futher include and linkpath modifications
+  * compiling but still some linker errors
+  * Second catkinization push
+  * First catkinization, still need to update some CMakeLists.txt
+  * moved to cob_driver
+  * Contributors: Alexander Bubeck, abubeck, ipa-fmw
+
+ -- Matthias Gruhler <mig@ipa.fhg.de>  Wed, 19 Mar 2014 23:00:00 -0000
+
+
