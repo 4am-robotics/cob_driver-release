@@ -1,6 +1,31 @@
-cob_driver
-===========
+cob\_scan\_unifier
+====================
 
-## GitHub Actions - Continuous Integration
+General description
+---------------------
+This package implements a node that unifies scan messages from a given numer of laser scanners
 
-CI-Status ```kinetic_dev```: [![GHA CI](https://github.com/4am-robotics/cob_driver/actions/workflows/main.yml/badge.svg?branch=kinetic_dev)](https://github.com/4am-robotics/cob_driver/actions/workflows/main.yml?query=branch%3Akinetic_dev)
+Node: scan\_unifier\_node
+---------------------
+
+The actual node that unifies a given number of laser scans
+#### Parameters
+**input\_scans** *(List of std::string)*
+ The names of the scan topics to subscribe to as list of strings.
+
+**loop\_rate** *(double, default: 100.0 [hz])*
+ The loop rate of the ros node.
+
+#### Published Topics
+**scan\_unified** *(sensor_msgs::LaserScan)*
+ Publishes the unified scans.
+
+#### Subscribed Topics
+**input\_scan\_name** *(sensor_msgs::LaserScan)*
+ The current scan message from the laser scanner with topic name specified via the parameter **input\_scan\_topics**
+
+
+#### Services
+
+
+#### Services called
