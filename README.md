@@ -1,3 +1,34 @@
+## cob_driver (noetic) - 0.7.17-1
+
+The packages in the `cob_driver` repository were released into the `noetic` distro by running `/usr/local/bin/bloom-release --ros-distro noetic --edit cob_driver` on `Thu, 18 Apr 2024 10:56:56 -0000`
+
+These packages were released:
+- `cob_driver`
+- `cob_light`
+- `cob_mimic`
+- `cob_phidgets`
+- `cob_scan_unifier`
+- `cob_sick_s300`
+- `cob_sound`
+- `laser_scan_densifier`
+
+Version of package(s) in repository `cob_driver`:
+
+- upstream repository: https://github.com/4am-robotics/cob_driver.git
+- release repository: https://github.com/4am-robotics/cob_driver-release.git
+- rosdistro version: `0.7.16-2`
+- old version: `0.7.16-2`
+- new version: `0.7.17-1`
+
+Versions of tools used:
+
+- bloom version: `0.12.0`
+- catkin_pkg version: `1.0.0`
+- rosdep version: `0.21.0`
+- rosdistro version: `0.9.0`
+- vcstools version: `0.1.42`
+
+
 ## cob_driver (noetic) - 0.7.16-2
 
 The packages in the `cob_driver` repository were released into the `noetic` distro by running `/usr/bin/bloom-release -r noetic -t noetic --edit --override-release-repository-url https://github.com/4am-robotics/cob_driver-release.git cob_driver` on `Tue, 20 Feb 2024 09:05:23 -0000`
