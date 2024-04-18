@@ -1,0 +1,400 @@
+ros-noetic-cob-mimic (0.7.17-1focal) focal; urgency=high
+
+
+
+ -- Felix Messmer <felixmessmer@gmail.com>  Wed, 17 Apr 2024 22:00:00 -0000
+
+ros-noetic-cob-mimic (0.7.16-1focal) focal; urgency=high
+
+
+
+ -- Felix Messmer <felixmessmer@gmail.com>  Mon, 19 Feb 2024 23:00:00 -0000
+
+ros-noetic-cob-mimic (0.7.15-1focal) focal; urgency=high
+
+
+
+ -- Felix Messmer <felixmessmer@gmail.com>  Sun, 05 Nov 2023 23:00:00 -0000
+
+ros-noetic-cob-mimic (0.7.14-1focal) focal; urgency=high
+
+
+
+ -- Felix Messmer <felixmessmer@gmail.com>  Wed, 16 Nov 2022 23:00:00 -0000
+
+ros-noetic-cob-mimic (0.7.13-1focal) focal; urgency=high
+
+
+
+ -- Felix Messmer <felixmessmer@gmail.com>  Thu, 28 Jul 2022 22:00:00 -0000
+
+ros-noetic-cob-mimic (0.7.12-1focal) focal; urgency=high
+
+
+
+ -- Felix Messmer <felixmessmer@gmail.com>  Mon, 14 Mar 2022 23:00:00 -0000
+
+ros-noetic-cob-mimic (0.7.11-1focal) focal; urgency=high
+
+
+
+ -- Felix Messmer <felixmessmer@gmail.com>  Tue, 11 Jan 2022 23:00:00 -0000
+
+ros-noetic-cob-mimic (0.7.10-1focal) focal; urgency=high
+
+
+
+ -- Felix Messmer <felixmessmer@gmail.com>  Wed, 22 Dec 2021 23:00:00 -0000
+
+ros-noetic-cob-mimic (0.7.9-1focal) focal; urgency=high
+
+
+
+ -- Felix Messmer <felixmessmer@gmail.com>  Thu, 25 Nov 2021 23:00:00 -0000
+
+ros-noetic-cob-mimic (0.7.8-1focal) focal; urgency=high
+
+
+
+ -- Felix Messmer <felixmessmer@gmail.com>  Mon, 18 Oct 2021 22:00:00 -0000
+
+ros-noetic-cob-mimic (0.7.7-1focal) focal; urgency=high
+
+
+
+ -- Felix Messmer <felixmessmer@gmail.com>  Sun, 01 Aug 2021 22:00:00 -0000
+
+ros-noetic-cob-mimic (0.7.6-1focal) focal; urgency=high
+
+  * Merge pull request #422 <https://github.com/ipa320/cob_driver/issues/422> from fmessmer/fix/mimic_noetic
+    use default libvlc configuration for noetic
+  * use default libvlc configuration for noetic
+  * Contributors: Felix Messmer, fmessmer
+
+ -- Felix Messmer <felixmessmer@gmail.com>  Sun, 09 May 2021 22:00:00 -0000
+
+ros-noetic-cob-mimic (0.7.5-1focal) focal; urgency=high
+
+  * Merge pull request #418 <https://github.com/ipa320/cob_driver/issues/418> from fmessmer/fix_catkin_lint
+    fix catkin_lint
+  * fix catkin_lint
+  * Contributors: Felix Messmer, fmessmer
+
+ -- Felix Messmer <felixmessmer@gmail.com>  Mon, 05 Apr 2021 22:00:00 -0000
+
+ros-noetic-cob-mimic (0.7.4-1focal) focal; urgency=high
+
+  * Merge pull request #417 <https://github.com/ipa320/cob_driver/issues/417> from fmessmer/test_noetic
+    test noetic
+  * Bump CMake version to avoid CMP0048 warning
+  * Contributors: Felix Messmer, fmessmer
+
+ -- Felix Messmer <felixmessmer@gmail.com>  Tue, 13 Oct 2020 22:00:00 -0000
+
+ros-noetic-cob-mimic (0.7.3-1focal) focal; urgency=high
+
+  * Merge pull request #413 <https://github.com/ipa320/cob_driver/issues/413> from fmessmer/remove_mimic_python
+    remove cob_mimic python driver
+  * remove cob_mimic python driver
+  * Contributors: Felix Messmer, fmessmer
+
+ -- Felix Messmer <felixmessmer@gmail.com>  Tue, 17 Mar 2020 23:00:00 -0000
+
+ros-noetic-cob-mimic (0.7.2-1focal) focal; urgency=high
+
+  * Merge pull request #410 <https://github.com/ipa320/cob_driver/issues/410> from fmessmer/fix_mimic_preemption
+    fix mimic preemption + add parameters
+  * fix preemption condition
+  * add random_mimics parameter
+  * add default_mimic parameter
+  * fix fullscreen
+  * add blocking parameter
+  * fix mimic preemption
+  * Merge pull request #409 <https://github.com/ipa320/cob_driver/issues/409> from LoyVanBeek/feature/python3_compatibility
+    [ci_updates] pylint + Python3 compatibility
+  * fix pylint errors
+  * Merge pull request #408 <https://github.com/ipa320/cob_driver/issues/408> from fmessmer/ci_updates
+    [travis] ci updates
+  * catkin_lint fixes
+  * Contributors: Felix Messmer, fmessmer
+
+ -- Felix Messmer <felixmessmer@gmail.com>  Tue, 17 Mar 2020 23:00:00 -0000
+
+ros-noetic-cob-mimic (0.7.1-1focal) focal; urgency=high
+
+
+
+ -- Felix Messmer <felixmessmer@gmail.com>  Wed, 06 Nov 2019 23:00:00 -0000
+
+ros-noetic-cob-mimic (0.7.0-1focal) focal; urgency=high
+
+  * Merge pull request #380 <https://github.com/ipa320/cob_driver/issues/380> from ipa-jba/fix/boost_shared_ptr
+    [Melodic] combined melodify pr
+  * added missing boost format include
+  * Merge pull request #396 <https://github.com/ipa320/cob_driver/issues/396> from HannesBachter/indigo_dev
+    0.6.15
+  * Merge pull request #398 <https://github.com/ipa320/cob_driver/issues/398> from LoyVanBeek/feature/reduce_framerate_and_resolution
+    Reduce resolution and framerate in .mp4-files
+  * Reduce resolution and framerate in .mp4-files
+  * Contributors: Benjamin Maidel, Felix Messmer, Florian Weisshardt, Loy van Beek
+
+ -- Felix Messmer <felixmessmer@gmail.com>  Mon, 05 Aug 2019 22:00:00 -0000
+
+ros-noetic-cob-mimic (0.6.15-1focal) focal; urgency=high
+
+  * Merge pull request #394 <https://github.com/ipa320/cob_driver/issues/394> from HannesBachter/feature/diagnostics
+    publish diagnostics
+  * use one instance and vout config
+  * change diagnostics info for active mimic
+  * use own thread for diagnostics
+  * use async spinner and not one-instance
+  * use variable for action active
+  * remove c++11 compile and order mutex unlock
+  * add compile option and cleanup
+  * publish diagnostics and use multithreaded spinner
+  * 0.6.14
+  * update changelogs
+  * Contributors: Benjamin Maidel, Hannes Bachter, fmessmer, hyb
+
+ -- Felix Messmer <felixmessmer@gmail.com>  Tue, 16 Jul 2019 22:00:00 -0000
+
+ros-noetic-cob-mimic (0.6.14-1focal) focal; urgency=high
+
+
+
+ -- Felix Messmer <felixmessmer@gmail.com>  Thu, 06 Jun 2019 22:00:00 -0000
+
+ros-noetic-cob-mimic (0.6.13-1focal) focal; urgency=high
+
+
+
+ -- Felix Messmer <felixmessmer@gmail.com>  Wed, 13 Mar 2019 23:00:00 -0000
+
+ros-noetic-cob-mimic (0.6.12-1focal) focal; urgency=high
+
+  * update maintainer
+  * Merge pull request #375 <https://github.com/ipa320/cob_driver/issues/375> from fmessmer/bulletproof_mimic
+    bulletproof mimic
+  * bulletproof mimic
+  * Merge pull request #371 <https://github.com/ipa320/cob_driver/issues/371> from fmessmer/mimic_play_nondefault_mimics
+    allow to play non-default mimics by specifying full filepath
+  * allow to play non-default mimics by specifying full filepath
+  * Contributors: Felix Messmer, fmessmer, ipa-fxm
+
+ -- Felix Messmer <felixmessmer@gmail.com>  Fri, 20 Jul 2018 22:00:00 -0000
+
+ros-noetic-cob-mimic (0.6.11-1focal) focal; urgency=high
+
+  * Merge remote-tracking branch 'origin/indigo_release_candidate' into indigo_dev
+  * Merge pull request #359 <https://github.com/ipa320/cob_driver/issues/359> from ipa-bnm/fix/mimic
+    [cob_mimic] use glx/opengl output for mimic
+  * use glx/opengl output for mimic, fixes mimic issue for 6th and 7th gen nuc
+  * Merge pull request #354 <https://github.com/ipa320/cob_driver/issues/354> from ipa-bnm/feature/mimic
+    [Mimic] improvements
+  * Merge pull request #353 <https://github.com/ipa320/cob_driver/issues/353> from ipa-fxm/update_maintainer
+    update maintainer
+  * Merge pull request #356 <https://github.com/ipa320/cob_driver/issues/356> from ipa-nhg/MimicPy
+    HotFix: readded python node for mimic
+  * remove duplicated test_mimic.py install tag
+  * use the old driver
+  * readded python node for mimic
+  * do not start blinking timer on sleeping or falling_asleep requests
+  * added random mimics
+  * double check username
+  * update maintainer
+  * Merge pull request #341 <https://github.com/ipa320/cob_driver/issues/341> from ipa-fxm/APACHE_license
+    use license apache 2.0
+  * Merge pull request #352 <https://github.com/ipa320/cob_driver/issues/352> from ipa-bnm/feature/mimic_sim
+    Do not run mimic in fullscreen if sim is enabled
+  * use license apache 2.0
+  * Merge branch 'indigo_dev' of github.com:ipa320/cob_driver into feature/mimic_sim
+  * no fullscreen if sim enabled
+  * Merge pull request #345 <https://github.com/ipa320/cob_driver/issues/345> from ipa-fxm/fix_mimic_permission
+    guarantee unique copy destinations
+  * guarantee unique copy destinations
+  * Contributors: Benjamin Maidel, Felix Messmer, Florian Weisshardt, Nadia Hammoudeh García, ipa-fxm, ipa-nhg, ipa-uhr-mk
+
+ -- Felix Messmer <felixmessmer@gmail.com>  Sat, 06 Jan 2018 23:00:00 -0000
+
+ros-noetic-cob-mimic (0.6.10-1focal) focal; urgency=high
+
+  * Merge branch 'indigo_dev' into indigo_release_candidate
+  * added apache header
+  * ported mimic from python to c++
+  * Contributors: Benjamin Maidel, flg-pb
+
+ -- Felix Messmer <felixmessmer@gmail.com>  Sun, 23 Jul 2017 22:00:00 -0000
+
+ros-noetic-cob-mimic (0.6.9-1focal) focal; urgency=high
+
+  * update license
+  * Delete ___init__.py
+  * Update package.xml
+  * remove vlc.py and add it as rosdep dependency (PR to rosdistro is https://github.com/ros/rosdistro/pull/15366)
+  * cleanup mimic node
+  * 
+    
+      * removed hardcoded sleep time between transition between emotions.
+    
+  * fix for the flickering in playback, caused when an emotion is set.
+  * fix cpu usage of the mimic node
+  * manually fix changelog
+  * mimic support the rotation of the face
+  * Contributors: Felix Messmer, Florian Weisshardt, fmw-ss, ipa-cob4-5, ipa-fxm, ipa-nhg, souravran
+
+ -- Felix Messmer <felixmessmer@gmail.com>  Mon, 17 Jul 2017 22:00:00 -0000
+
+ros-noetic-cob-mimic (0.6.8-1focal) focal; urgency=high
+
+  * vlc 2.2 version use by default the wrong video output
+  * Contributors: ipa-cob4-5, ipa-nhg
+
+ -- Felix Messmer <felixmessmer@gmail.com>  Sun, 09 Oct 2016 22:00:00 -0000
+
+ros-noetic-cob-mimic (0.6.7-1focal) focal; urgency=high
+
+
+
+ -- Felix Messmer <felixmessmer@gmail.com>  Fri, 01 Apr 2016 22:00:00 -0000
+
+ros-noetic-cob-mimic (0.6.6-1focal) focal; urgency=high
+
+  * re-add copying mimic files
+  * fix action name in test node
+  * fix mimic shutdown and cleanup
+  * Update CMakeLists.txt
+  * add rospy again
+  * merge
+  * missed dependencies
+  * Contributors: Florian Weisshardt, ipa-fmw, ipa-fxm, ipa-nhg
+
+ -- Felix Messmer <felixmessmer@gmail.com>  Thu, 31 Mar 2016 22:00:00 -0000
+
+ros-noetic-cob-mimic (0.6.5-1focal) focal; urgency=high
+
+
+
+ -- Felix Messmer <felixmessmer@gmail.com>  Sun, 30 Aug 2015 22:00:00 -0000
+
+ros-noetic-cob-mimic (0.6.4-1focal) focal; urgency=high
+
+  * cleanup
+  * fixing dependencies
+  * remove trailing whitespaces
+  * migrate to package format 2
+  * sort dependencies
+  * critically review dependencies
+  * Contributors: ipa-fxm
+
+ -- Felix Messmer <felixmessmer@gmail.com>  Mon, 24 Aug 2015 22:00:00 -0000
+
+ros-noetic-cob-mimic (0.6.3-1focal) focal; urgency=high
+
+  * use component namespaces for light, mimic and say
+  * catkin_lint'ing
+  * Contributors: Florian Weisshardt, ipa-fmw
+
+ -- Felix Messmer <felixmessmer@gmail.com>  Tue, 16 Jun 2015 22:00:00 -0000
+
+ros-noetic-cob-mimic (0.6.2-1focal) focal; urgency=high
+
+  * new names for mimic
+  * use wallpaper instead of fullscreen
+  * add tired mimic
+  * delete outdated bored mimic and add default
+  * final faces
+  * new mimic files
+  * add action for mimic node
+  * new faces
+  * update mimic videos
+  * delete outdated gifs
+  * install tags
+  * new faces
+  * fixed circle color mode
+  * the rate can  be a float
+  * tested on cob4-2
+  * redo cob_mimic
+  * removed pygame dependency
+  * updated cob_mimic
+  * rewrite script using os.system
+  * new package cob_mimic - First Version
+  * Contributors: Florian Weisshardt, bnm, ipa-cob4-2, ipa-fmw, ipa-nhg
+  * new names for mimic
+  * use wallpaper instead of fullscreen
+  * add tired mimic
+  * delete outdated bored mimic and add default
+  * final faces
+  * new mimic files
+  * add action for mimic node
+  * new faces
+  * update mimic videos
+  * delete outdated gifs
+  * install tags
+  * new faces
+  * fixed circle color mode
+  * the rate can  be a float
+  * tested on cob4-2
+  * redo cob_mimic
+  * removed pygame dependency
+  * updated cob_mimic
+  * rewrite script using os.system
+  * new package cob_mimic - First Version
+  * Contributors: Florian Weisshardt, bnm, ipa-cob4-2, ipa-fmw, ipa-nhg
+
+ -- Felix Messmer <felixmessmer@gmail.com>  Sun, 14 Dec 2014 23:00:00 -0000
+
+ros-noetic-cob-mimic (0.6.1-1focal) focal; urgency=high
+
+
+
+ -- Felix Messmer <felixmessmer@gmail.com>  Tue, 16 Sep 2014 22:00:00 -0000
+
+ros-noetic-cob-mimic (0.6.0-1focal) focal; urgency=high
+
+
+
+ -- Felix Messmer <felixmessmer@gmail.com>  Mon, 08 Sep 2014 22:00:00 -0000
+
+ros-noetic-cob-mimic (0.5.7-1focal) focal; urgency=high
+
+
+
+ -- Felix Messmer <felixmessmer@gmail.com>  Tue, 26 Aug 2014 07:47:00 -0000
+
+ros-noetic-cob-mimic (0.5.6-1focal) focal; urgency=high
+
+
+
+ -- Felix Messmer <felixmessmer@gmail.com>  Tue, 26 Aug 2014 07:42:00 -0000
+
+ros-noetic-cob-mimic (0.5.5-1focal) focal; urgency=high
+
+
+
+ -- Felix Messmer <felixmessmer@gmail.com>  Tue, 26 Aug 2014 06:33:00 -0000
+
+ros-noetic-cob-mimic (0.5.4-1focal) focal; urgency=high
+
+
+
+ -- Felix Messmer <felixmessmer@gmail.com>  Sun, 24 Aug 2014 22:00:00 -0000
+
+ros-noetic-cob-mimic (0.5.3-1focal) focal; urgency=high
+
+
+
+ -- Felix Messmer <felixmessmer@gmail.com>  Sun, 30 Mar 2014 22:00:00 -0000
+
+ros-noetic-cob-mimic (0.5.2-1focal) focal; urgency=high
+
+
+
+ -- Felix Messmer <felixmessmer@gmail.com>  Thu, 20 Mar 2014 23:00:00 -0000
+
+ros-noetic-cob-mimic (0.5.1-1focal) focal; urgency=high
+
+
+
+ -- Felix Messmer <felixmessmer@gmail.com>  Thu, 20 Mar 2014 09:54:00 -0000
+
+
